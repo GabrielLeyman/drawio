@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="ddmNiFmKpY3ZqBeaKk4O">
-    <mxGraphModel dx="550" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VDtAnHnVQmzeFDyp-iiq-2" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;320&quot; data-end=&quot;374&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;div class=&quot;cm-content q9tKkq_readonly&quot;&gt;Kissena Bakery — Revenue Cycle (Order-to-Cash)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" vertex="1">
           <mxGeometry height="1060" width="790" x="30" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="VDtAnHnVQmzeFDyp-iiq-3" parent="VDtAnHnVQmzeFDyp-iiq-2" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Sales Department" vertex="1">
+        <mxCell id="VDtAnHnVQmzeFDyp-iiq-3" parent="VDtAnHnVQmzeFDyp-iiq-2" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#fad7ac;strokeColor=#000099;" value="Sales Department" vertex="1">
           <mxGeometry height="330" width="790" y="20" as="geometry" />
         </mxCell>
         <mxCell id="MvuORtNOyegxR8PNCg3T-2" edge="1" parent="VDtAnHnVQmzeFDyp-iiq-3" source="VDtAnHnVQmzeFDyp-iiq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MvuORtNOyegxR8PNCg3T-1">
@@ -63,13 +63,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MvuORtNOyegxR8PNCg3T-10" parent="VDtAnHnVQmzeFDyp-iiq-3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#FF3333;" value="&lt;font style=&quot;color: rgb(153, 255, 51);&quot;&gt;Credit Check Approved?&lt;/font&gt;" vertex="1">
+        <mxCell id="MvuORtNOyegxR8PNCg3T-10" parent="VDtAnHnVQmzeFDyp-iiq-3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;font style=&quot;color: rgb(102, 0, 204);&quot;&gt;Credit Check Approved?&lt;/font&gt;" vertex="1">
           <mxGeometry height="100" width="100" x="540" y="70" as="geometry" />
         </mxCell>
         <mxCell id="MvuORtNOyegxR8PNCg3T-11" edge="1" parent="VDtAnHnVQmzeFDyp-iiq-3" source="MvuORtNOyegxR8PNCg3T-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MvuORtNOyegxR8PNCg3T-18" parent="VDtAnHnVQmzeFDyp-iiq-3" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#B20000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#e51400;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Order Rejected — Customer Notified&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="MvuORtNOyegxR8PNCg3T-19" parent="VDtAnHnVQmzeFDyp-iiq-3" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;Sales Order Authorized &amp;amp; Released to Warehouse&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="640" as="geometry" />
         </mxCell>
         <mxCell id="VDtAnHnVQmzeFDyp-iiq-4" parent="VDtAnHnVQmzeFDyp-iiq-2" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Warehouse Department&lt;/span&gt;&lt;/font&gt;&lt;p data-start=&quot;591&quot; data-end=&quot;601&quot;&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="320" width="790" y="350" as="geometry" />
