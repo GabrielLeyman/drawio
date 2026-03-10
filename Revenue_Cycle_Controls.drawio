@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="ddmNiFmKpY3ZqBeaKk4O">
-    <mxGraphModel dx="550" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,8 +80,18 @@
         <mxCell id="VDtAnHnVQmzeFDyp-iiq-4" parent="VDtAnHnVQmzeFDyp-iiq-2" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Warehouse Department&lt;/span&gt;&lt;/font&gt;&lt;p data-start=&quot;591&quot; data-end=&quot;601&quot;&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="320" width="800" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="MvuORtNOyegxR8PNCg3T-24" parent="VDtAnHnVQmzeFDyp-iiq-4" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d0cee2;strokeColor=#56517e;" value="&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;Sales Order Received by Warehouse&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="20" y="30" as="geometry" />
+        <mxCell id="MvuORtNOyegxR8PNCg3T-24" parent="VDtAnHnVQmzeFDyp-iiq-4" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d0cee2;strokeColor=#330033;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;Sales Order Received by Warehouse&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MvuORtNOyegxR8PNCg3T-26" edge="1" parent="VDtAnHnVQmzeFDyp-iiq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="22" />
+              <mxPoint x="71" y="22" />
+            </Array>
+            <mxPoint x="729" y="-268" as="sourcePoint" />
+            <mxPoint x="71" y="90" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="VDtAnHnVQmzeFDyp-iiq-5" parent="VDtAnHnVQmzeFDyp-iiq-2" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;602&quot; data-end=&quot;639&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;div class=&quot;cm-content q9tKkq_readonly&quot;&gt;Billing / Accounts Receivable&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" vertex="1">
           <mxGeometry height="390" width="800" y="670" as="geometry" />
